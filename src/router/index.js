@@ -14,7 +14,7 @@ import OtpVerification from '../views/OtpVerification.vue'; // Add this import
 
 const routes = [
   { 
-    path: '/', 
+    path: '/#/', 
     name: 'Root',
     beforeEnter: (to, from, next) => {
       const isLoggedIn = localStorage.getItem('userLoggedIn') === 'true';
